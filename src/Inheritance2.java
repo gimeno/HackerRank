@@ -10,14 +10,14 @@ public class Inheritance2 {
     }
 }
 
-class Adder extends Arithmetic implements Ari {
+class Adder extends Arithmetic {
 
 
     public String add(int i, int j) {
         return String.valueOf(i + j);
     }
 
-    @Override
+
     public String mult(int i, int j) {
         return String.valueOf(i * j);
     }
@@ -36,7 +36,7 @@ abstract class Arithmetic {
 }
 
 interface Ari {
-    public String mult(int i, int j);
+    String mult(int i, int j);
 
 
 }
