@@ -1,7 +1,10 @@
+package arrays;
+
 import java.util.Scanner;
 
 /**
  * Created by Roberto on 17/05/2017.
+ * https://www.hackerrank.com/challenges/java-2d-array/problem
  */
 public class Java2DArray {
 
@@ -14,7 +17,7 @@ public class Java2DArray {
             }
         }
 
-        int largestSum = 0;
+        int largestSum = Integer.MIN_VALUE;
         int sum = 0;
         for (int i = 0; i < 6; i++) {
             if (i >= 4) {

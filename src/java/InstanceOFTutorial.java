@@ -1,3 +1,5 @@
+package java;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -30,9 +32,9 @@ public class InstanceOFTutorial {
         for(int i=0;i<t;i++)
         {
             String s=sc.next();
-            if(s.equals("Student"))mylist.add(new Student());
-            if(s.equals("Rockstar"))mylist.add(new Rockstar());
-            if(s.equals("Hacker"))mylist.add(new Hacker());
+            if(s.equals("java.Student"))mylist.add(new Student());
+            if(s.equals("java.Rockstar"))mylist.add(new Rockstar());
+            if(s.equals("java.Hacker"))mylist.add(new Hacker());
         }
         System.out.println(count(mylist));
     }

@@ -1,3 +1,5 @@
+package arrays;
+
 import java.util.Scanner;
 
 /**
@@ -13,7 +15,7 @@ public class Abigsum {
         }
 
         long result = 0;
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++){
             result += arr[i];
         }
         System.out.println(result);
